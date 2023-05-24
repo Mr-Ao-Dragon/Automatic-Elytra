@@ -6,8 +6,8 @@
 name: build
 on: [pull_request, push]
 
-jobs:
-  steps:
+   jobs:
+    steps:
     - name: checkout repository
       uses: actions/checkout@v2
     - name: validate gradle wrapper
